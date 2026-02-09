@@ -60,6 +60,7 @@ const CustomerListTable = ({
             paginationModel={paginationModel}
             onPaginationModelChange={setPaginationModel}
             rowCount={rowCount}
+            aria-label="Customer List"
           />
         </Paper>
       )}
