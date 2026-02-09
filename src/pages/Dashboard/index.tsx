@@ -39,7 +39,6 @@ const Dashboard = () => {
 
   return (
     <>
-      <h2>Customer Dashboard</h2>
       <CustomerListTable
         customerDetails={rows}
         setPaginationModel={setPaginationModel}

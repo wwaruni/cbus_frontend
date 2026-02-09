@@ -52,6 +52,7 @@ const CustomerListTable = ({
         "Loading........"
       ) : (
         <Paper sx={{ height: "100%", width: "100%" }}>
+          <h2>Customer Dashboard</h2>
           <DataGrid
             rows={prepareRowData(customerDetails)}
             columns={columns}
