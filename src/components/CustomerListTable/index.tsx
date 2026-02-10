@@ -84,7 +84,7 @@ const CustomerListTable = ({
               aria-label="Customer List"
             />
           ) : (
-            "No Data"
+            "No Customer Data"
           )}
         </Paper>
       )}
